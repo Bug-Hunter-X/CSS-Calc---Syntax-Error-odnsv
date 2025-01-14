@@ -1,0 +1,9 @@
+The `calc()` function requires proper syntax.  Make sure operators (+, -, *, /) are used correctly and that units are consistent. Spaces around operators are recommended.  Ensure you're not using nested `calc()` improperly. 
+
+Example of corrected CSS:
+```css
+.box {
+  width: calc(100% - 20px);
+  height: calc(50vw + 10px);
+}
+```
